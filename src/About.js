@@ -2,7 +2,7 @@ import {FaStop} from "react-icons/fa"
 const About = () => {
     return ( 
         <div className="about">
-            <h2>SOME NOT SO FUN FACTS ABOUT ME</h2>
+            <h2>NOT SO FUN FACTS ABOUT ME</h2>
             <p><FaStop/><i class="fa-sharp fa-solid fa-period"></i>Hi, my name is Jewel </p>
             <p>and I love to write.</p>
             <p>I write codes, music, novels and short stories</p>
