@@ -46,13 +46,13 @@
 
   
   .navbar h1 {
-    color: #00348f;
+    color: #001944;
     font-weight: bolder;
    
   }
 
   #light .navbar h1 {
-    color: rgba(0, 30, 151, 0.523);
+    color: rgb(1, 12, 58);
   }
   #dark .navbar  h1{
     color: rgb(255, 255, 255);
@@ -78,7 +78,7 @@
   }
 
   #light .navbar a{
-    color: rgba(0, 30, 151, 0.523);
+    color: rgb(0, 30, 151);
   }
   #dark .navbar a{
     color: rgb(255, 255, 255);
@@ -222,7 +222,7 @@
 
 
 #light .home {
-  color: rgba(20, 47, 136, 0.523);
+  color: rgba(2, 22, 87, 0.523);
 }
 #dark .home{
   color: rgba(255, 255, 255, 0.944);
@@ -235,7 +235,7 @@
   font-style: italic;
 }
 #light .home h1 {
-  color: rgba(33, 94, 0, 0.71);
+  color: rgba(28, 78, 1, 0.837);
 }
 #dark .home h1{
   color: rgba(213, 186, 168, 0.79);
@@ -300,12 +300,7 @@
   margin-top: 20px;
   color: lightseagreen;
 }
-#light .tech{
-  color: rgb(0, 15, 128);
-} 
-#dark .tech{
-  color: rgba(195, 92, 218, 0.79);
-}
+
 
 .info {
   text-align: center;
@@ -314,6 +309,14 @@
   font: bolder;
   font-style: italic;
   margin-top: 20px;
+}
+
+#light .info {
+  
+  color: rgba(13, 38, 0, 0.988);
+}
+#dark .info {
+  color: rgb(255, 255, 255);
 }
 
 
@@ -329,7 +332,7 @@
 
 #light .about {
   
-  color: rgba(33, 94, 0, 0.71);
+  color: rgba(28, 78, 1, 0.837);
 }
 #dark .about{
   color: rgb(255, 255, 255);
@@ -343,7 +346,7 @@
 }
 
 #light .about h2{
-  color: rgb(0, 15, 128);
+  color: rgb(0, 9, 75);
 } 
 #dark .about h2{
   color: rgba(213, 186, 168, 0.79);
@@ -354,7 +357,7 @@
 }
 
 #light .about b {
-  color: rgba(3, 63, 184, 0.523);
+  color: rgb(0, 40, 119);
 }
 #dark .about b {
   color: rgb(255, 255, 255);
@@ -373,7 +376,7 @@
 }
 
 #light .contacts {
-  color: rgba(3, 63, 184, 0.523);
+  color: rgba(3, 63, 184, 0.907);
 }
 #dark .contacts {
   color: rgba(213, 186, 168, 0.79);
