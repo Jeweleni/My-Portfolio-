@@ -13,14 +13,14 @@ const Home = () => {
             <img className="imageme" src={me} width="220" height="300"  alt="jewel"/>
             
             </div>
-            <p>Writer, FrontEnd Developer, AltSchooler</p>
+            <p className="info">Writer, FrontEnd Developer, AltSchooler</p>
 
             <div >
-            <button className="tech"><FaReact/>React<i class="fa-brands fa-react"></i></button> 
-            <button className="tech"><FaVuejs/>vuejs<i class="fa-brands fa-vuejs"></i></button> 
-            <button className="tech"><FaJs/>js<i class="fa-brands fa-js"></i></button> 
-            <button className="tech"><FaCss3/>css3<i class="fa-brands fa-css3"></i></button>
-            <button className="tech"><FaHtml5/>html5<i class="fa-brands fa-html5"></i></button> 
+            <button className="react"><FaReact/>React<i class="fa-brands fa-react"></i></button> 
+            <button className="vue"><FaVuejs/>vuejs<i class="fa-brands fa-vuejs"></i></button> 
+            <button className="js"><FaJs/>js<i class="fa-brands fa-js"></i></button> 
+            <button className="css"><FaCss3/>css3<i class="fa-brands fa-css3"></i></button>
+            <button className="html"><FaHtml5/>html5<i class="fa-brands fa-html5"></i></button> 
             
 
 

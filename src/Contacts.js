@@ -35,7 +35,7 @@ const Contacts = () => {
 
     
 
-      <a href="jeweleni@gmail.com">
+      <a href="mailto:jeweleni@gmail.com">
         <button className="email">< FaEnvelope />Email</button>
       </a>
 
