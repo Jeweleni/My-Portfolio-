@@ -1,0 +1,16 @@
+{
+    "portfolio":[
+        {
+            "title": "Github Portfolio",
+            "body": "Lorem ipsum dolor sit amet",
+            "author": "emjcreate",
+            "id": "1"
+        },
+        {
+            "title": "Book App",
+            "body": "Lorem ipsum dolor sit amet",
+            "author": "emjcreate",
+            "id": "2"
+        }
+    ]
+}
