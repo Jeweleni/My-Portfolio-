@@ -55,7 +55,7 @@
     color: rgb(1, 12, 58);
   }
   #dark .navbar  h1{
-    color: rgb(255, 255, 255);
+    color: rgb(255, 236, 236);
   }
   
   .navbar .links {
@@ -343,13 +343,14 @@
   text-align: center;
   font-style: normal;
   font-weight: bolder;
+  margin-bottom: 40px;
 }
 
 #light .about h2{
   color: rgb(0, 9, 75);
 } 
 #dark .about h2{
-  color: rgba(213, 186, 168, 0.79);
+  color: rgb(255, 206, 173);
 }
 
 .about b {
