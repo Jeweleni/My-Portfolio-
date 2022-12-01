@@ -24,7 +24,7 @@ const Contacts = () => {
         <button className="medium"><FaMedium/> Medium<i className="fa-brands fa-medium"></i></button>
       </a>
 
-      <a href=" https://https://www.linkedin.com/in/momoreoluwa-jewel-eni-018848188/"> 
+      <a href=" https://www.linkedin.com/in/momoreoluwa-jewel-eni-018848188/"> 
         <button className="linkedin"><FaLinkedin/> linkedin<i className="fa-brands fa-linkedin"></i></button>
       </a>
 
