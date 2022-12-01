@@ -10,12 +10,15 @@
   .App {
     font-family: "Josefin Sans", sans-serif;
     width: 100vw;
-    height: 100vh;
+    height: 170vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
   }
 
   #light {
@@ -32,7 +35,7 @@
     align-items: center;
     max-width: 600px;
     margin: 0 auto;
-    margin-top: -70px;
+    margin-top: -400px;
   }
   #light .navbar{
     border-bottom: 1px solid #031684;
@@ -45,6 +48,7 @@
   .navbar h1 {
     color: #00348f;
     font-weight: bolder;
+   
   }
 
   #light .navbar h1 {
@@ -209,14 +213,41 @@
   margin-bottom: 50px;
   text-align: center;
   margin-top: 30px;
+  font-weight: bolder;
+  font-size: 15px;
+  font: bolder;
+  font-style: italic;
+ 
 }
 
+
 #light .home {
-  color: rgba(12, 57, 29, 0.523);
+  color: rgba(20, 47, 136, 0.523);
 }
 #dark .home{
-  color: rgba(34, 208, 179, 0.385);
+  color: rgba(255, 255, 255, 0.944);
 }
+.home h1{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 25px;
+  font: bolder;
+  font-style: italic;
+}
+#light .home h1 {
+  color: rgba(33, 94, 0, 0.71);
+}
+#dark .home h1{
+  color: rgba(213, 186, 168, 0.79);
+}
+.imageme {
+  height: 200px;
+  width: 180px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4rem;
+}
+
 
 
 
@@ -269,6 +300,10 @@
   text-align: left;
   font-style: normal;
   font-weight: bold;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr,1fr;
+
 }
 
 #light .contacts {
@@ -332,6 +367,14 @@
   margin: 20px;
 }
 
+.linkedin {
+  height: 40px;
+  text-align: left;
+  font-style: normal;
+  font-weight: bold;
+  color: rgb(20, 94, 164);
+  margin: 20px;
+}
 .error {
   height: 40px;
   text-align: left;

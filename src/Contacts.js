@@ -1,5 +1,5 @@
 import React from "react";
-import {FaGithub, FaMedium, FaTwitter, FaInstagram, FaPhone, FaEnvelope} from "react-icons/fa"
+import {FaGithub, FaMedium, FaTwitter, FaInstagram, FaEnvelope, FaLinkedin} from "react-icons/fa"
 
 
 
@@ -24,14 +24,16 @@ const Contacts = () => {
         <button className="medium"><FaMedium/> Medium<i className="fa-brands fa-medium"></i></button>
       </a>
 
+      <a href=" https://https://www.linkedin.com/in/momoreoluwa-jewel-eni-018848188/"> 
+        <button className="linkedin"><FaLinkedin/> linkedin<i className="fa-brands fa-linkedin"></i></button>
+      </a>
+
 
       <a href=" https://www.instagram.com/emj_creates/">
         <button className="instagram"><FaInstagram/> Instagram<i className="fa-brands fa-medium"></i></button>
       </a> 
 
-      <a href="+2348147528661">
-        <button className="telephone"><FaPhone/>Telephone</button>
-      </a>
+    
 
       <a href="jeweleni@gmail.com">
         <button className="email">< FaEnvelope />Email</button>
