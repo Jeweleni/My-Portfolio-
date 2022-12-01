@@ -6,7 +6,7 @@ const About = () => {
             <p><FaStop/><i class="fa-sharp fa-solid fa-period"></i>Hi, my name is Jewel </p>
             <p>and I love to write.</p>
             <p>I write codes, music, novels and short stories</p>
-            <p>It brings me comfort. Writting the cello to Wednesday Addams, It helps me express my emotions better</p>
+            <p>It brings me comfort. Writting is the cello to my Wednesday Addams.</p>
             <p><FaStop/><i class="fa-sharp fa-solid fa-period"></i>I wrote my first "Hello World" early this year thanks to Altschool Africa </p>
 
             <div className="about b">
