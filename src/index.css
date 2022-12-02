@@ -188,7 +188,18 @@
   color: rgb(255, 255, 255);
 }
 
-  
+
+.portolio {
+  max-width: 600px;
+    margin: 40px auto;
+    margin-bottom: 120px;
+    margin-top: 50px;
+    padding: 20px;
+    font-weight: bold;
+    height: 100vh;
+    width: 50%;
+    box-shadow: inset
+}
 
 .switch{
   display: flex;
@@ -250,19 +261,19 @@
   margin-top: 20px;
 }
 
-.tech {
-  height: 30px;
-  text-align: left;
-  font-style: normal;
-  font-weight: bolder;
-  margin-top: 20px;
+.skills {
+  display: flex;
+  align-items: center;
+  
+
 }
 .react {
   height: 30px;
-  text-align: left;
+
   font-style: normal;
   font-weight: bolder;
   margin-top: 30px;
+
   color:rgba(33, 94, 0, 0.71);
 }
 

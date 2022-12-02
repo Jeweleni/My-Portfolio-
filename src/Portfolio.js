@@ -1,6 +1,6 @@
 import { useState,useEffect } from "react";
 import PortfolioList from "./PortfolioList";
-
+import { motion } from "framer-motion";
 
 const Portfolio = () => {
         const [portfolio, setPortfolio] = useState([
@@ -28,9 +28,13 @@ const Portfolio = () => {
        
          return ( 
              
-             <div className="home">
+             <motion.div className="portfolio"
+             initial={{opacity: 0,}}
+            animate={{opacity: 1,}}
+            exit={{opacity:0,}}
+            >
                  <PortfolioList portfolio={portfolio} title="" />
-             </div>
+             </motion.div>
           
           );
      }

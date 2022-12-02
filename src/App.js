@@ -1,12 +1,9 @@
 import Navbar from './Navbar';
-import Home from './Home';
-import {BrowserRouter as Router, Route, Routes} from "react-router-dom"
-import About from './About';
-import Contacts from './Contacts';
+import {BrowserRouter as Router } from "react-router-dom"
 import ReactSwitch from 'react-switch';
 import { createContext, useState } from 'react';
-import Error404 from './Error404';
-import Portfolio from './Portfolio';
+import AnimatedRoutes from './AnimatedRoutes';
+
 
 
 
@@ -14,6 +11,7 @@ export const ThemeContext = createContext("null");
 
 
 function App() {
+
 
   const [theme, setTheme] = useState("dark");
 
@@ -26,7 +24,9 @@ function App() {
       <ThemeContext.Provider  value={{theme, setTheme}}>
       <div className="App" id={theme}> 
     
+    
         <Navbar/>
+      
         <div className='switch'>
         <ReactSwitch onChange={toggleTheme} checked={theme === "dark"}/>
         </div>
@@ -34,14 +34,9 @@ function App() {
        
         <div className='content'>
         
-          <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/About" element={<About />} />
-          <Route path='/Portfolio' element={<Portfolio/>}/> 
-          <Route path="/Contacts" element={<Contacts />} />
-          <Route path='*' element={<Error404/>}/>
-          </Routes>
+         <AnimatedRoutes/>
         </div>
+        
       </div>
       </ThemeContext.Provider>
     </Router>

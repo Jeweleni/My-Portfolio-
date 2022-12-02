@@ -1,7 +1,14 @@
 import {FaStop} from "react-icons/fa"
+import { motion } from "framer-motion";
+
+
 const About = () => {
     return ( 
-        <div className="about">
+        <motion.div className="about"
+        initial={{opacity: 0,}}
+            animate={{opacity: 1,}}
+            exit={{opacity:0,}}
+        >
             <h2>NOT SO FUN FACTS ABOUT ME</h2>
             <p><FaStop/><i class="fa-sharp fa-solid fa-period"></i>Hi, my name is Jewel </p>
             <p>and I love to write.</p>
@@ -22,7 +29,7 @@ const About = () => {
             </div>
             
     
-        </div>
+        </motion.div>
      );
 }
  

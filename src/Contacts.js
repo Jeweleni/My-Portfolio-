@@ -1,11 +1,15 @@
 import React from "react";
 import {FaGithub, FaMedium, FaTwitter, FaInstagram, FaEnvelope, FaLinkedin} from "react-icons/fa"
-
+import { motion } from "framer-motion";
 
 
 const Contacts = () => {
     return ( 
-    <div className="contacts">
+    <motion.div className="contacts"
+    initial={{opacity: 0,}}
+            animate={{opacity: 1,}}
+            exit={{opacity:0,}}
+    >
         <h2>You can always find me on one of these</h2>
 
          <div>
@@ -42,7 +46,7 @@ const Contacts = () => {
 
          </div>
 
-    </div> );
+    </motion.div> );
 }
  
 export default Contacts;
