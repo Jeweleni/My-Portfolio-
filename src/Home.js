@@ -10,11 +10,10 @@ const Home = () => {
         
         <motion.div className="home"
            
-
-            initial={{opacity: 0,}}
-            animate={{opacity: 1,}}
-            exit={{opacity:0,}}
-            >
+        initial={{opacity: 0,}}
+        animate={{opacity: 1,}}
+        exit={{opacity:0,}}
+        >
 
             <h1>Hi,.... I'm Jewel</h1>
             <div >

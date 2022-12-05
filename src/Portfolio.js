@@ -3,6 +3,7 @@ import PortfolioList from "./PortfolioList";
 import { motion } from "framer-motion";
 
 const Portfolio = () => {
+    
         const [portfolio, setPortfolio] = useState([
          {title: "Github Portfolio", body: "Lorem ipsum...", author: "EMJcreates", url:"https://jewelaltschool2ndsemesterexam.netlify.app/", id: 1, },
          {title: "Book App", body: "Lorem ipsum...", author: "EMJcreates", url: "https://book-app.emjcreates.repl.co", id: 2},
@@ -27,15 +28,22 @@ const Portfolio = () => {
      
        
          return ( 
+
+         
              
              <motion.div className="portfolio"
              initial={{opacity: 0,}}
             animate={{opacity: 1,}}
             exit={{opacity:0,}}
             >
-                 <PortfolioList portfolio={portfolio} title="" />
+              <h2>
+               <p className="title">My Creations</p>
+
+               </h2>
+                 <PortfolioList portfolio={portfolio} title=""  />
+                 
              </motion.div>
-          
+            
           );
      }
 

@@ -7,8 +7,8 @@ const Contacts = () => {
     return ( 
     <motion.div className="contacts"
     initial={{opacity: 0,}}
-            animate={{opacity: 1,}}
-            exit={{opacity:0,}}
+    animate={{opacity: 1,}}
+    exit={{opacity:0,}}
     >
         <h2>You can always find me on one of these</h2>
 

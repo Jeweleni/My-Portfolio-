@@ -193,13 +193,34 @@
   max-width: 600px;
     margin: 40px auto;
     margin-bottom: 120px;
-    margin-top: 50px;
+    margin-top: 70px;
     padding: 20px;
     font-weight: bold;
     height: 100vh;
     width: 50%;
     box-shadow: inset
 }
+
+#light .portfolio {
+  color: rgba(28, 78, 1, 0.837);
+}
+#dark .portfolio{
+  color: rgb(255, 206, 173);
+}
+
+.title{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#light .title {
+  color: rgba(3, 63, 184, 0.907);
+}
+#dark .title {
+  color: rgb(255, 206, 173);
+}
+
 
 .switch{
   display: flex;
@@ -264,6 +285,7 @@
 .skills {
   display: flex;
   align-items: center;
+  margin-left: 60px;
   
 
 }
@@ -279,7 +301,6 @@
 
 .html {
   height: 30px;
-  text-align: left;
   font-style: normal;
   font-weight: bolder;
   margin-top: 30px;
@@ -288,7 +309,7 @@
 
 .css{
   height: 30px;
-  text-align: left;
+ 
   font-style: normal;
   font-weight: bolder;
   margin-top:30px;
@@ -297,7 +318,7 @@
 
 .js{
   height: 30px;
-  text-align: left;
+ 
   font-style: normal;
   font-weight: bolder;
   margin-top: 30px;
@@ -306,7 +327,7 @@
 
 .vue{
   height: 30px;
-  text-align: left;
+
   font-style: normal;
   font-weight: bolder;
   margin-top: 30px;
@@ -381,9 +402,10 @@
 
 .contacts {
   height: 30px;
-  text-align: left;
+  text-align: center;
   font-style: normal;
   font-weight: bold;
+  margin-top: 30px;
   display: grid;
   gap: 2rem;
   grid-template-columns: 1fr,1fr;
