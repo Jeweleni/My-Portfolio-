@@ -7,8 +7,9 @@ const Portfolio = () => {
         const [portfolio, setPortfolio] = useState([
          {title: "Github Portfolio", body: "Lorem ipsum...", author: "EMJcreates", url:"https://jewelaltschool2ndsemesterexam.netlify.app/", id: 1, },
          {title: "Book App", body: "Lorem ipsum...", author: "EMJcreates", url: "https://book-app.emjcreates.repl.co", id: 2},
-         {title: "Party Website", body: "Lorem ipsum...", author: "EMJcreates", url: "https://altschoolreactrouterassignment.netlify.app/",  id: 3},
-         {title: "Calculator App", body: "Lorem ipsum...", author: "EMJcreates", url: "https://Altschool-Calculator-App-Assignment.emjcreates.repl.co",  id: 4},
+         {title: "Reciepe Website", body: "Lorem ipsum...", author: "EMJcreates", url:"food-website-tau.vercel.app", id: 3, },
+         {title: "Party Website", body: "Lorem ipsum...", author: "EMJcreates", url: "https://altschoolreactrouterassignment.netlify.app/",  id: 4},
+         {title: "Calculator App", body: "Lorem ipsum...", author: "EMJcreates", url: "https://Altschool-Calculator-App-Assignment.emjcreates.repl.co",  id: 5},
         ]);
      
      
