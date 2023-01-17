@@ -36,6 +36,7 @@
     max-width: 600px;
     margin: 0 auto;
     margin-top: -400px;
+    justify-content: center;
   }
   #light .navbar{
     border-bottom: 1px solid #031684;
@@ -286,8 +287,9 @@
 .skills {
   display: flex;
   align-items: center;
-  margin-left: 60px;
-  
+  margin-left: 0px;
+  justify-content: center;
+  position: relative;
 
 }
 .react {
@@ -494,7 +496,7 @@
 
 @media only screen and (max-width: 400px) {
   .navbar{
-    width: 20%;
-    height: 10%;
+    width: 30%;
+    height: 2%;
   }
 }
