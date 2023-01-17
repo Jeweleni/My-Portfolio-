@@ -226,9 +226,9 @@
   display: flex;
   position: relative;
   cursor: pointer;
-  margin-left: 600px;
-  height: 5px;
-  width: 5vw;
+  margin-left: 400px;
+  height: 3px;
+  width: 4vw;
   color: black;
 
 }
@@ -489,4 +489,12 @@
   font-weight: bolder;
   color: crimson;
   margin: 20px;
+}
+
+
+@media only screen and (max-width: 400px) {
+  .navbar{
+    width: 90%;
+    height: 90%;
+  }
 }
