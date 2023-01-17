@@ -3,6 +3,9 @@ import {BrowserRouter as Router } from "react-router-dom"
 import ReactSwitch from 'react-switch';
 import { createContext, useState } from 'react';
 import AnimatedRoutes from './AnimatedRoutes';
+import Home from './Home';
+import About from './About';
+import Contacts from './Contacts';
 
 
 

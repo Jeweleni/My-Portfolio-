@@ -3,10 +3,12 @@ import { FaCss3, FaHtml5, FaJs, FaReact, FaVuejs } from "react-icons/fa";
 import me from "../src/Images/me.jpg"
 import { motion } from "framer-motion";
 
+
 const Home = () => {
 
    
     return ( 
+        
         
         <motion.div className="home"
            
@@ -14,6 +16,7 @@ const Home = () => {
         animate={{opacity: 1,}}
         exit={{opacity:0,}}
         >
+           
 
             <h1>Hi,.... I'm Jewel</h1>
             <div >
