@@ -539,25 +539,24 @@
 @media only screen and (max-width: 400px) {
   .navbar{
     width: 40%;
-    height: 0.7%;
+ 
   }
 
   .switch{
     width: 0.05%;
     height: 0.2%;
-    margin-left: 300px;
+    margin-left: 250px;
   }
 
   .navbar h1{
   
     width: 40%;
-    height: 1%;
+
    
   }
 
   .navbar .links {
     width: 60%;
-    height: 1%;
     margin-left: 0px;
   }
 }
