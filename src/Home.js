@@ -30,11 +30,11 @@ const Home = () => {
             
             <div className="skills">
                 
-            <button className="react"><FaReact/><i class="fa-brands fa-react"></i></button> 
-            <button className="vue"><FaVuejs/><i class="fa-brands fa-vuejs"></i></button> 
-            <button className="js"><FaJs/><i class="fa-brands fa-js"></i></button> 
-            <button className="css"><FaCss3/><i class="fa-brands fa-css3"></i></button>
-            <button className="html"><FaHtml5/><i class="fa-brands fa-html5"></i></button> 
+            <button className="react"><FaReact/>React<i class="fa-brands fa-react"></i></button> 
+            <button className="vue"><FaVuejs/>vuejs<i class="fa-brands fa-vuejs"></i></button> 
+            <button className="js"><FaJs/>js<i class="fa-brands fa-js"></i></button> 
+            <button className="css"><FaCss3/>css3<i class="fa-brands fa-css3"></i></button>
+            <button className="html"><FaHtml5/>html5<i class="fa-brands fa-html5"></i></button> 
 
             </div>
 
