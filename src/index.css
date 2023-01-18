@@ -559,10 +559,12 @@
   .navbar .links {
     width: 90%;
     margin-left: 0px;
+    justify-content: center;
   }
 
   .links{
     width: 90%;
     margin-left: 0px;
+    justify-content: center;
   }
 }
