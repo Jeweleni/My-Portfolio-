@@ -26,7 +26,7 @@ const Home = () => {
             </div>
             <p className="info">I'm a Writer and FrontEnd Developer in Nigeria.</p>
 
-            <div className="tools"> <p>The tools I use include;</p> </div>
+            <div className="tools"> <p>Some of the tools I use include;</p> </div>
             
             <div className="skills">
                 
@@ -38,9 +38,9 @@ const Home = () => {
 
             </div>
 
-            <div className="click for more">
+            <div className="resume">
                 <button>
-            <Link to="/Portfolio">Click for<br/> Portfolio</Link>
+            <Link to="/Portfolio">CLICK FOR<br/> PORTFOLIO</Link>
             </button>
             </div>
             

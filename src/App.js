@@ -3,8 +3,6 @@ import {BrowserRouter as Router } from "react-router-dom"
 import ReactSwitch from 'react-switch';
 import { createContext, useState } from 'react';
 import AnimatedRoutes from './AnimatedRoutes';
-import About from './About';
-import Home from './Home';
 
 
 

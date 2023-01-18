@@ -10,7 +10,7 @@ const Contacts = () => {
     animate={{opacity: 1,}}
     exit={{opacity:0,}}
     >
-        <h2>You can always find me on one of these</h2>
+        <h2>You can always find me/ send a message via one of these</h2>
 
          <div>
 
