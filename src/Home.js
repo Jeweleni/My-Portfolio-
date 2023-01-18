@@ -3,6 +3,7 @@ import { FaCss3, FaHtml5, FaJs, FaReact, FaVuejs } from "react-icons/fa";
 import me from "../src/Images/me.jpg"
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import resume from "./Images/Momoreoluwa's Resume.pdf"
 
 const Home = () => {
 
@@ -42,6 +43,11 @@ const Home = () => {
                 <button>
             <Link to="/Portfolio">CLICK FOR<br/> PORTFOLIO</Link>
             </button>
+            </div>
+            <div className="resume">
+                <button>
+                <a href= {resume}>CLICK FOR <br/> RESUME</a>
+                </button>
             </div>
             
         </motion.div>
