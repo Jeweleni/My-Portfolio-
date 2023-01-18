@@ -5,11 +5,12 @@ import { motion } from "framer-motion";
 const Portfolio = () => {
     
         const [portfolio, setPortfolio] = useState([
-         {title: "Github Portfolio", body: "Lorem ipsum...", author: "EMJcreates", url:"https://jewelaltschool2ndsemesterexam.netlify.app/", id: 1, },
-         {title: "Book App", body: "Lorem ipsum...", author: "EMJcreates", url: "https://book-app-olive.vercel.app/", id: 2},
-         {title: "Reciepe Website", body: "Lorem ipsum...", author: "EMJcreates", url:"https://food-website-byemjcreates.vercel.app/", id: 3, },
-         {title: "Party Website", body: "Lorem ipsum...", author: "EMJcreates", url: "https://altschoolreactrouterassignment.netlify.app/",  id: 4},
-         {title: "Calculator App", body: "Lorem ipsum...", author: "EMJcreates", url: "https://Altschool-Calculator-App-Assignment.emjcreates.repl.co",  id: 5},
+         {title: "Rental Agency", body: "Lorem ipsum...", author: "EMJcreates", url: "https://rental-agency.vercel.app/", id: 1},
+         {title: "Github Portfolio", body: "Lorem ipsum...", author: "EMJcreates", url:"https://jewelaltschool2ndsemesterexam.netlify.app/", id: 2, },
+         {title: "Book App", body: "Lorem ipsum...", author: "EMJcreates", url: "https://book-app-olive.vercel.app/", id: 3},
+         {title: "Reciepe Website", body: "Lorem ipsum...", author: "EMJcreates", url:"https://food-website-byemjcreates.vercel.app/", id: 4, },
+         {title: "Party Website", body: "Lorem ipsum...", author: "EMJcreates", url: "https://altschoolreactrouterassignment.netlify.app/",  id: 5},
+         {title: "Calculator App", body: "Lorem ipsum...", author: "EMJcreates", url: "https://Altschool-Calculator-App-Assignment.emjcreates.repl.co",  id: 6},
         ]);
      
      

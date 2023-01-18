@@ -60,7 +60,8 @@
   }
   
   .navbar .links {
-    margin-left: auto;
+    margin-left: 0px;
+
   }
 
   #light .navbar .links{
@@ -101,6 +102,7 @@
 .body {
   height: 100vh;
   width: 100%;
+  justify-content: center;
 
 }
 #light .body{
@@ -283,6 +285,17 @@
   margin-top: 20px;
 }
 
+.tools{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  font-size: larger;
+}
+
 .skills {
   display: flex;
   align-items: center;
@@ -354,6 +367,17 @@
   color: rgb(255, 255, 255);
 }
 
+.click{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 15px;
+  font: bolder;
+  font-style: italic;
+  margin-top: 30px;
+  color: #eef6fc;
+  padding: 0, 2px;
+  justify-content: center;
+}
 
 .about {
   height: 100vh;

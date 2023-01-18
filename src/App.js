@@ -3,9 +3,9 @@ import {BrowserRouter as Router } from "react-router-dom"
 import ReactSwitch from 'react-switch';
 import { createContext, useState } from 'react';
 import AnimatedRoutes from './AnimatedRoutes';
-import Home from './Home';
 import About from './About';
-import Contacts from './Contacts';
+import Home from './Home';
+
 
 
 
@@ -29,6 +29,8 @@ function App() {
     
     
         <Navbar/>
+        
+        
       
         <div className='switch'>
         <ReactSwitch onChange={toggleTheme} checked={theme === "dark"}/>
@@ -39,6 +41,7 @@ function App() {
         
          <AnimatedRoutes/>
         </div>
+        
         
       </div>
       </ThemeContext.Provider>
